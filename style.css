@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2px; /* odstêp miêdzy divami */
+    height: 100vh;
+}
+
+.grid-item {
+    box-sizing: border-box;
+    border: 1px solid #333;
+    aspect-ratio: 1/1; /* stosunek szerokoœci do wysokoœci, aby utworzyæ kwadratowe divy */
+
+}
+
